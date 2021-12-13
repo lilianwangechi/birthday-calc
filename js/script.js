@@ -4,7 +4,7 @@
     e.preventDefault()
     var namesMale = ["Kwasi", " Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
     
-    var namesFemale = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+    var namesFemale = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
     
     let gender = document.querySelector(".Timothy").value
     // console.log(gender)
@@ -95,7 +95,7 @@
 
 
                 // /* female */
-                // var namesFemale = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"]
+              
                 // var weekNames = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
                 // function birthDay2(cc1, yy1, mm1, dd1) {
