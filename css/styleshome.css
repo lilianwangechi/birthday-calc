@@ -13,11 +13,13 @@ background-image: ;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
+height: 80vh;
 }
 .gender {
 display: contents;
 justify-content: space-around;
 color: white;
+text-align: center;
 
 }
 .heading1 {
@@ -30,9 +32,11 @@ text-align: center;
 }
 .button1 {
   background-color: brown;
-  border-radius: 15px;
+  border-radius: 10px;
   font-size: 20px;
   cursor: pointer;
+  
+
 }
 .footer {
   text-align: center;
