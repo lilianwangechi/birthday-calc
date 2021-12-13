@@ -6,15 +6,18 @@
 
 }
 .container {
-background-color:silver ;
+background-image: url("/images/akan5.jpg");
 text-align: center;
 font-family: oblique;
 background-image: ;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 }
 .gender {
 display: contents;
 justify-content: space-around;
-color: steelblue;
+color: white;
 
 }
 .heading1 {
@@ -34,4 +37,7 @@ text-align: center;
 .footer {
   text-align: center;
   color: steelblue;
+}
+.boy {
+  color: black;
 }
