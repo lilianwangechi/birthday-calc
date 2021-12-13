@@ -7,46 +7,61 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
   <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
-  <title>Document</title>
+  <title>Ghanian Names</title>
 </head>
 
 <body>
-  <h1>My Ghanian Name</h1>
-  <form name="my form">
-    <!-- male -->
+  <div class="heading1">
+  <h1><span>Ghanian Name</span></h1>
+  <p>Ghanian names are fascinating.The Ghanians name themselves based on the day they were born.<br>To get Your Ghanian enter the form below.<br></p>
+  </div>
+  <div class="container">
+    <div class="test-box">
+     
+      <div class="gender">
+        <form name="my form">
+          <!-- male -->
+          <div class="boy">
+          <h2>Enter Your data if Male</h2>
+          <label for="fname">date of birth eg 10:</label><br>
+          <input type="text" id="dateofbirth" name="Date of Birth" min="1" max="31"><br>
 
-    <label for="fname">date of birth eg 10:</label><br>
-    <input type="text" id="dateofbirth" name="Date of Birth" min="1" max="31"><br>
+          <label for="fname">month of birth e.g 8 for August:</label><br>
+          <input type="text" id="monthofbirth" min="1" max="12"><br>
 
-    <label for="fname">month of birth e.g 8 for August:</label><br>
-    <input type="text" id="monthofbirth" min="1" max="12"><br>
+          <label for="fname">century of birth eg for 1990 write 19:</label><br>
+          <input type="text" id="centuryofbirth" min="19" max="20"><br>
 
-    <label for="fname">century of birth eg for 1990 write 19:</label><br>
-    <input type="text" id="centuryofbirth" min="19" max="20"><br>
+          <label for="fname">Year Of Birth eg for 1990 write 90:</label><br>
+          <input type="text" id="yearofbirth" min="01" max="99"><br> <br>
 
-    <label for="fname">Year Of Birth eg for 1990 write 90:</label><br>
-    <input type="text" id="yearofbirth" min="01" max="99"><br>
+          <button onclick="birthDay1()">Submit</button> <br>
+        </div>
+          <!-- female input data -->
+          <div class="girl">
+          <h2>Enter Your data if Female</h2>
 
-    <button onclick="birthday1()">Submit</button> <br>
+          <label for="fname">date of birth eg 10:</label><br>
+          <input type="text" id="dateofbirth" name="Date of Birth" min="1" max="31"><br>
 
-    <!-- female input data -->
-    <label for="fname">date of birth eg 10:</label><br>
-    <input type="text" id="dateofbirth" name="Date of Birth" min="1" max="31"><br>
+          <label for="fname">month of birth e.g 8 for August:</label><br>
+          <input type="text" id="monthofbirth" min="1" max="12"><br>
 
-    <label for="fname">month of birth e.g 8 for August:</label><br>
-    <input type="text" id="monthofbirth" min="1" max="12"><br>
+          <label for="fname">century of birth eg for 1990 write 19:</label><br>
+          <input type="text" id="centuryofbirth" min="19" max="20"><br>
 
-    <label for="fname">century of birth eg for 1990 write 19:</label><br>
-    <input type="text" id="centuryofbirth" min="19" max="20"><br>
+          <label for="fname">Year Of Birth eg for 1990 write 90:</label><br>
+          <input type="text" id="yearofbirth" min="01" max="99"><br><br>
 
-    <label for="fname">Year Of Birth eg for 1990 write 90:</label><br>
-    <input type="text" id="yearofbirth" min="01" max="99"><br>
-
-    <button onclick="birthday1()">Submit</button> <br>
-  </form>
+          <button onclick="birthDay1()">Submit</button> <br>
+        </div>
+        </form>
+      </div>
 
 
-  <script src="js/script.js"></script>
+      <script src="js/script.js"></script>
+    </div>
+  </div>
 </body>
 
 </html>

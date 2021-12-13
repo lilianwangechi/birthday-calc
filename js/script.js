@@ -4,12 +4,14 @@
 var namesMale = ["Kwasi"," Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"]
 var weekNames = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
 
+  
+
 function birthDay1(cc,yy,mm,dd){
-   
   var dd = document.getElementById("dateofbirth").value; 
   var mm = document.getElementById("monthofbirth").value;
   var cc = document.getElementById("centuryofbirth").value;
   var yy = document.getElementById("yearofbirth").value;
+ 
   
   const BIRTHDAY = ((((cc/4)- 2 * cc -1) + ((5 * yy /4)) + ((5 * yy/4 )) + ((26 * (mm + 1 )/ 10)) + dd)%7).toFixed(0);
   if (BIRTHDAY == 0) {alert(namesFemale[0] + "is your Ghanian name.You were born on + "weekNames[0]")
@@ -34,7 +36,7 @@ function birthDay1(cc,yy,mm,dd){
 /* female */
 var namesFemale = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"]
 
-function birthDay1(cc1,yy1,mm1,dd1){
+function birthDay2(cc1,yy1,mm1,dd1){
    
   var dd1 = document.getElementById("dateofbirth").value; 
   var mm1 = document.getElementById("monthofbirth").value;
