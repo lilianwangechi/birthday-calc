@@ -9,6 +9,7 @@
 background-color:silver ;
 text-align: center;
 font-family: oblique;
+background-image: ;
 }
 .gender {
 display: contents;
@@ -22,5 +23,15 @@ text-align: center;
 
 }
 .heading1 span {
+  color: steelblue;
+}
+.button1 {
+  background-color: brown;
+  border-radius: 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.footer {
+  text-align: center;
   color: steelblue;
 }
