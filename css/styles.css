@@ -1,15 +1,12 @@
-.test-box {
-  
-}
+
 .test-box h1 {
- color:;
+ color: steelblue;
 
 }
 .container {
-background-image: url("/images/akan5.jpg");
+background: wheat;
 text-align: center;
 font-family: oblique;
-background-image: ;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -31,7 +28,7 @@ text-align: center;
   color: steelblue;
 }
 .button1 {
-  background-color: brown;
+  background-color: darkolivegreen;
   border-radius: 10px;
   font-size: 20px;
   cursor: pointer;
