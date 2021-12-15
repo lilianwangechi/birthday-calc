@@ -36,12 +36,7 @@
   // let DOB = document.querySelector(".Horse");
   let Form = document.querySelector(".My-Form");
   Form.addEventListener("submit",(e)=> {
-    //  e.preventDefault()
-    // console.log(DOB.value)
-    // let [year,month,day] = DOB.value.split("-")
-    // console.log(year.split(""))
-    // console.log(year.split("")[0]+year.split("")[1])
-    // console.log(year.split("")[2]+year.split("")[3])
+    
     birthDay1(e)
   })
    
@@ -63,6 +58,33 @@
    
    
    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//  e.preventDefault()
+    // console.log(DOB.value)
+    // let [year,month,day] = DOB.value.split("-")
+    // console.log(year.split(""))
+    // console.log(year.split("")[0]+year.split("")[1])
+    // console.log(year.split("")[2]+year.split("")[3])
    
    
    
