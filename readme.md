@@ -19,8 +19,11 @@ To set this project up on your local machine ,follow the following steps:
 -HTML
 -CSS
 -js
-
-
+## Behavior Driven Development
+Behaviour           | Input | Output                |
+--------------------|-------|-----------------------|
+Enter your birthdate| Date  | generate the Akan name |
+ 
 ## Known Bugs
 No Known Bugs
 

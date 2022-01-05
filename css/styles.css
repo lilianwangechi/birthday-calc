@@ -42,3 +42,11 @@ text-align: center;
 .boy {
   color: black;
 }
+.container{
+  background-image: url(/images/akan1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
